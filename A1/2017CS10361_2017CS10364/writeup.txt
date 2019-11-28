@@ -1,0 +1,6 @@
+1
+None
+We have implemented Local Search in the space of complete solutions of a fixed common length 'n'. We do the search by taking greedy steps with some probability, else taking random steps.
+We first do quick searches by varying common lengths, and get good candidates for common lengths.
+We then do deep and long searches for those picked candidates. We also randomly restart and search in the space.
+We output the minces seen till now.
